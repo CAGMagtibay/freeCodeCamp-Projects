@@ -236,3 +236,10 @@ footer {
 footer > p {
   margin: 2rem;
 }
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
